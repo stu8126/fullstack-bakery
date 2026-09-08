@@ -1,0 +1,31 @@
+/*
+index.css is a common place to keep global styles,
+which are styles that apply to the entire page.
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+global font styles are conventionally applied to html,
+since the 'rem' unit is based on the_root_font.
+*/
+html {
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex: 1;
+
+  display: flex;
+  gap: 1ch;
+}
