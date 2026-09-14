@@ -1,0 +1,25 @@
+aside {
+  padding: 1ch;
+  padding-top: 0;
+  min-width: 15ch;
+}
+
+aside ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 1ch;
+}
+
+aside li {
+  background: blue;
+  width: 100%;
+  border-radius: 5px;
+  padding: 1ch;
+  color: whitesmoke;
+}
+
+aside li:hover {
+  cursor: pointer;
+  background: crimson;
+}
